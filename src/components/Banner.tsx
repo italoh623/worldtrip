@@ -11,12 +11,14 @@ export function Banner() {
       bgPosition={["100% 20%","100% 20%","100% 30%"]}
       bgRepeat="no-repeat"
       bgSize="cover"
+      justify="center"
     >
       <Flex 
         justify={['center', 'space-between']} 
         align="center"
         w="100%"
         px={["4", "10", "15", "20", "36"]}
+        maxW="1800px"
       >
         <div>
           <Heading 

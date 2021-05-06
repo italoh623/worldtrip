@@ -5,28 +5,28 @@ interface featureProps {
   text: String;
 }
 
-export function Feature({icon, text}: featureProps) {
+export function Feature({ icon, text }: featureProps) {
   const isMobile = useBreakpointValue({
-    base:false,
-    sm:true
+    base: false,
+    sm: true
   })
 
   return (
-    <Flex 
+    <Flex
       direction={["row", "column"]}
-      align="center" 
-      justify="center" 
+      align="center"
+      justify="center"
     >
       {isMobile ? (
-        <Image 
+        <Image
           src={`./assets/icons/${icon}.svg`}
           w="85px"
           h="85px"
           mb="6"
         />
       ) : (
-        <Text 
-          color="yellow.300" 
+        <Text
+          color="yellow.300"
           fontSize="4xl"
           mr="2"
         >
@@ -34,10 +34,10 @@ export function Feature({icon, text}: featureProps) {
         </Text>
       )}
 
-      <Text 
-        fontWeight="600" 
-        color="gray.900" 
-        fontSize={["md", "xl","2xl"]}
+      <Text
+        fontWeight="600"
+        color="gray.900"
+        fontSize={["md", "xl", "2xl"]}
       >
         {text}
       </Text>
