@@ -1,12 +1,13 @@
 import { Header } from "../components/Header";
 import { Banner } from "../components/Banner";
-import { Flex } from "@chakra-ui/react";
+import { Features } from "../components/Features/index";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Banner />
+      <Features />
     </>
   )
 }
