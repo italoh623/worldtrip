@@ -18,7 +18,7 @@ export function Banner() {
         align="center"
         w="100%"
         px={["4", "10", "15", "20", "36"]}
-        maxW="1800px"
+        maxW="1600px"
       >
         <div>
           <Heading 
