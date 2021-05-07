@@ -21,7 +21,7 @@ export function Carousel({ continents }: CarouselProps) {
       maxW="1500px"
       h={["250px", "450px"]}
       mx="auto"
-      px={["2", "4"]}
+      px={["2", "4", "8", "16"]}
       mb={["5", "10"]}
     >
       <Swiper
@@ -29,9 +29,9 @@ export function Carousel({ continents }: CarouselProps) {
         navigation
         pagination={{ clickable: true }}
         autoplay={{
-          delay:4000,
+          delay: 4000,
         }}
-        style={{width: '100%', flex: '1'}}
+        style={{ width: '100%', flex: '1' }}
       >
         {continents.map(continent => (
 
@@ -49,23 +49,21 @@ export function Carousel({ continents }: CarouselProps) {
               textAlign="center"
             >
               <Link href={`/continent/${continent.slug}`}>
-                <a>
-                  <Heading
-                    fontSize={["3xl", "4xl", "5xl"]}
-                    color="gray.100"
-                    fontWeight="bold{continent.title}"
-                  >
-                    {continent.title}
-                  </Heading>
-                  <Text
-                    fontWeight="bold"
-                    color="gray.300"
-                    fontSize={["0.8rem", "1xl", "2xl"]}
-                    mt={["2", "4"]}
-                  >
-                    {continent.summary}
-                  </Text>
-                </a>
+                <Heading
+                  fontSize={["3xl", "4xl", "5xl"]}
+                  color="gray.100"
+                  fontWeight="bold{continent.title}"
+                >
+                  {continent.title}
+                </Heading>
+                <Text
+                  fontWeight="bold"
+                  color="gray.300"
+                  fontSize={["0.8rem", "1xl", "2xl"]}
+                  mt={["2", "4"]}
+                >
+                  {continent.summary}
+                </Text>
               </Link>
             </Flex>
           </SwiperSlide>

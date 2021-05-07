@@ -20,8 +20,8 @@ export function Feature({ icon, text }: featureProps) {
       {isMobile ? (
         <Image
           src={`./assets/icons/${icon}.svg`}
-          w="85px"
-          h="85px"
+          w={["60px","85px"]}
+          h={["60px","85px"]}
           mb="6"
         />
       ) : (

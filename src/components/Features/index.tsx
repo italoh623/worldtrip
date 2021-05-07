@@ -12,6 +12,7 @@ export function Features() {
       maxW="1160px"
       flexWrap="wrap"
       gap={[1,5]}
+      px={["4", "8", "16", "16"]}
     >
       <GridItem>
         <Feature icon="cocktail" text="vida noturna"/>
