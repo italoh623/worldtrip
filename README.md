@@ -41,13 +41,13 @@ To run this server you will need a node version 12.0.0 (minimum)
 
 ![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/web/home.png)
 
-![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/web/home.png)
+![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/web/continent.png)
 
 * Mobile
 
 ![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/mobile/home.png)
 
-![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/mobile/home.png)
+![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/mobile/continent.png)
 
 
 ---
