@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
 
-## Getting Started
+<img src="https://raw.githubusercontent.com/italoh623/worldtrip/main/public/assets/logo.svg" alt="worldtrip" width="200px"/>
 
-First, run the development server:
+</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+WorldTrip is a website to get to know the continents developed in the Ignite Bootcamp by RocketSeat.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Getting Started 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+These instructions will get you a copy of the full project up and running on your local machine for development and testing purposes.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The project must be built with npm, so download it below if you don't have any installed on your system.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* **Npm** is distributed with Node.js which means that when you download Node.js, you automatically get npm installed on your computer. [Download Node.js](https://nodejs.org/en/download/)
 
-## Learn More
+* **Yarn** is a package manager built by Facebook Team and seems to be faster than npm in general. [Download Yarn](https://yarnpkg.com/en/docs/install)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this server you will need a node version 12.0.0 (minimum) 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+# How to Install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* To download the project follow the instructions bellow:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+1. `git clone https://github.com/italoh623/worldtrip.git`
+
+2. `cd dashgo`
+
+* Install the dependencies and start the server:
+
+3. `yarn install`
+
+4. `yarn dev` 🥳
+
+# Screenshots 
+
+* Web
+
+![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/web/home.png)
+
+![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/web/home.png)
+
+* Mobile
+
+![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/mobile/home.png)
+
+![](https://raw.githubusercontent.com/italoh623/worldtrip/main/screenshots/mobile/home.png)
+
+
+---
+### Author
+
+
+
+<img style="border-radius: 50%;" src="https://github.com/italoh623.png" width="80px;" alt="" />
+
+
+<sub><b>Ítalo Henrique Leça da Silva</b></sub>
+
+[![Linkedin Badge](https://img.shields.io/badge/-@italo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gitirana/)](https://www.linkedin.com/in/italo-leca/) [![Gmail Badge](https://img.shields.io/badge/-italohenrique014@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:italohenrique014@gmail.com)](mailto:italohenrique014@gmail.com)
