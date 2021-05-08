@@ -8,8 +8,8 @@ export function Cities() {
       direction="column"
     >
       <Heading
+        fontSize={["2xl","4xl"]}
         fontWeight="500"
-        color="gray.900"
         mb={["5", "10"]}
       >
         Cidades +100
