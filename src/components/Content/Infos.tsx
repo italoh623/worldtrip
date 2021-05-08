@@ -16,7 +16,7 @@ export function Infos() {
         <Heading
           color="yellow.300"
           fontSize={["1.75rem","5xl"]}
-          fontWeight="500"
+          fontWeight="600"
         >
           50
         </Heading>
@@ -24,7 +24,7 @@ export function Infos() {
           textAlign={["center","left"]}
           fontSize={["1rem","2xl"]}
           color="gray.700"
-          fontWeight="500"
+          fontWeight="600"
         >
           países
         </Text>
@@ -38,7 +38,7 @@ export function Infos() {
         <Heading
           color="yellow.300"
           fontSize={["1.75rem","5xl"]}
-          fontWeight="500"
+          fontWeight="600"
         >
         60
         </Heading>
@@ -46,7 +46,7 @@ export function Infos() {
           textAlign={["center","left"]}
           fontSize={["1rem","2xl"]}
           color="gray.700"
-          fontWeight="500"
+          fontWeight="600"
         >
           línguas
         </Text>
@@ -60,7 +60,7 @@ export function Infos() {
         <Heading
           color="yellow.300"
           fontSize={["1.75rem","5xl"]}
-          fontWeight="500"
+          fontWeight="600"
         >
           27
         </Heading>
@@ -68,7 +68,7 @@ export function Infos() {
           textAlign={["center","left"]}
           fontSize={["1rem","2xl"]}
           color="gray.700"
-          fontWeight="500"
+          fontWeight="600"
         >
           cidades
         </Text>
